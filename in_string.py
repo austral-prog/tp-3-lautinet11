@@ -1,6 +1,22 @@
-def check_vowels():
-    # Código a implementar utilizando input.
+abc = 0
+while abc < 4:
+    def check_vowels():
+        Nombre = input()
+        a = "a" in Nombre or "A" in Nombre
+        a = str(a)
+        e = "e" in Nombre or "E" in Nombre
+        e = str(e)
+        i = "i" in Nombre or "I" in Nombre
+        i = str(i)
+        o = "o" in Nombre or "O" in Nombre
+        o = str(o)
+        u = "u" in Nombre or "U" in Nombre
+        u = str(u)
 
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
+        print("Contiene a: "+a)
+        print("Contiene e: "+e)
+        print("Contiene i: "+i)
+        print("Contiene o: "+o)
+        print("Contiene u: "+u)
+    abc = abc +1
+    check_vowels()
